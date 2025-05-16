@@ -31,6 +31,7 @@ def validar_imc():
         resultado_imc.configure(text='IMC: {:.2f}, 30 até 40: Obesidade'.format(imc), text_color='red')
 
 
+
 janela = ctk.CTk()
 janela.title('Calculo IMC')
 janela.geometry('300x300')
